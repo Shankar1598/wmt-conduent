@@ -1,0 +1,64 @@
+#navbar{
+    border-radius: 0px!important;
+    height: 100vh;
+    background: white;
+}
+
+.item{
+    border-radius: 0!important;
+    padding: 10px!important;
+    display: flex;
+    
+}
+.item:hover{
+    background: #a4d3ff!important;
+    color: white!important;
+}
+.active{
+    background: #1890ff!important;
+    color: white!important;
+}
+#menu-item-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.icon-holder{
+    margin-bottom: 15px;
+}
+
+.header{
+    margin-bottom:20px; 
+}
+
+.segment-container{
+    margin:15px!important;
+}
+.user-tabs{
+    display: flex;
+}
+#tab-label{
+    text-align:right;
+    padding-right: 22px;
+    padding-top: 8px;
+}
+
+.graph-holder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tax-amount{
+    color:white;
+    font-size: 30px;
+}
+
+.ui.form .fields {
+    flex-direction: column !important;
+}
+
+.ui.form .twelve.wide.field {
+    margin: 6px !important;
+}
